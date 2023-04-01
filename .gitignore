@@ -1,0 +1,8 @@
+dist/
+trash/
+public/
+coverage/
+node_modules/
+
+trash.*
+*.env
