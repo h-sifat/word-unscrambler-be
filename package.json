@@ -1,5 +1,5 @@
 {
-  "name": "Word Unscrambler",
+  "name": "word_unscrambler_be",
   "private": true,
   "version": "1.0.0",
   "description": "A word un-scrambler API written only with vanilla Node.js",
@@ -12,6 +12,15 @@
     "test": "jest --passWithNoTests",
     "test:coverage": "jest --coverage",
     "prepare": "husky install"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/tests/**",
+      "**/docs/**"
+    ],
+    "execMap": {
+      "ts": "ts-node"
+    }
   },
   "keywords": [],
   "author": "Muhammad Sifat Hossain",
